@@ -1,2 +1,5 @@
+#!/bin/bash
 
-mv serverlaunch.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/
+panel serve panelapp/class_launch_server.py
+
+##mv serverlaunch.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/

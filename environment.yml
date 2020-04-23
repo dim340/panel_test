@@ -114,7 +114,7 @@ dependencies:
   - jupyter_client=5.3.3=py37_1
   - jupyter_console=6.0.0=py37_0
   - jupyter_core=4.5.0=py_0
-  - jupyter_panel_proxy
+  - jupyter_panel_proxy=*
   - jupyterlab=1.1.4=pyhf63ae98_0
   - jupyterlab_server=1.0.6=py_0
   - keyring=18.0.0=py37_0

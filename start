@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python class_launch_server.py

@@ -1,5 +1,6 @@
 name: base
 channels:
+  - pyviz
   - conda-forge
   - defaults
 dependencies:

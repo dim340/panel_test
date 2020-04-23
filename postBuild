@@ -1,0 +1,2 @@
+# bokeh launches at startup
+mv bokehserverextension.py ${NB_PYTHON_PREFIX}/lib/python*/site-packages/

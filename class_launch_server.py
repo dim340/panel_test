@@ -65,7 +65,23 @@ class RoomOccupancy(param.Parameterized):
             return find_outliers(self.variable, self.window, self.sigma)
                                 
 obj = RoomOccupancy()
+
+datawidget = pnw.DataFrame(data)
+
+datawidget.height = 0
+
+def bnc(event):
+        if button.clicks % 2 == 0:
+            datawidget.height = 0
+        else:
+            datawidget.height = 150
+
+button = pnw.Button(name='Show/Hide data', button_type='primary')
+button.on_click(bnc)
+buttonobj = pn.Column(button, datawidget)
 testobj = pn.Row(obj.param, obj.view)
+testobj = pn.Column(testobj, buttonobj)
+#testobj = pn.Row(obj.param, obj.view)
 testobj.servable()
 #### End of via objects
 

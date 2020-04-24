@@ -3,3 +3,5 @@ panel
 hvplot
 pandas
 scipy
+matplotlib
+param
